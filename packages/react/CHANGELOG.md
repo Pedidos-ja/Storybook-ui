@@ -1,5 +1,11 @@
 # @ui-developer-system/react
 
+## 1.0.2
+
+### Patch Changes
+
+- adjustment
+
 ## 1.1.1
 
 ### Patch Changes
