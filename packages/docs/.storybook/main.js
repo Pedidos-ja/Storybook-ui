@@ -24,7 +24,7 @@ module.exports = {
     };
     
     if (configType === 'PRODUCTION') {
-      config.base = 'design-system/'
+      config.base = '/Storybook-ui/'
     }
 
     return config

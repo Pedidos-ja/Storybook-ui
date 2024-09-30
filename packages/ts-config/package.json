@@ -1,6 +1,6 @@
 {
-  "name": "@ui/ts-config",
-  "version": "1.0.0",
+  "name": "@ui-developer-system/ts-config",
+  "version": "1.0.2",
   "license": "MIT",
   "private": true
 }
