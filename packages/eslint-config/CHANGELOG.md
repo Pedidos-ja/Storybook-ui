@@ -1,11 +1,16 @@
 # @ui-developer-system/eslint-config
- 
+
+## 1.0.3
+
+### Patch Changes
+
+- 4b5ae80: remove lib
+
 ## 1.0.2
 
 ### Patch Changes
 
 - adjustment
- 
 
 ## 1.0.1
 
