@@ -19,12 +19,12 @@ module.exports = {
   viteFinal: (config, { configType }) => {
     config.css = {
       modules: {
-        scopeBehaviour: 'local', // Garante que o comportamento seja local, como esperado com CSS Modules
+        scopeBehaviour: 'local',  
       },
     };
     
     if (configType === 'PRODUCTION') {
-      config.base = '/05-design-system/'
+      config.base = 'design-system/'
     }
 
     return config
