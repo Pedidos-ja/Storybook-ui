@@ -1,4 +1,4 @@
-# @ui/react
+# @ui-developer-system/react
 
 ## 1.1.1
 

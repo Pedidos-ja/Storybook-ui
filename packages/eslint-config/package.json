@@ -1,5 +1,5 @@
 {
-  "name": "@ui/eslint-config",
+  "name": "@ui-developer-system/eslint-config",
   "version": "1.0.1",
   "license": "MIT",
   "private": true,

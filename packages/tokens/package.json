@@ -1,5 +1,5 @@
 {
-  "name": "@ui/tokens",
+  "name": "@ui-developer-system/tokens",
   "version": "1.0.1",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ui/ts-config": "*",
-    "@ui/eslint-config": "*",
+    "@ui-developer-system/ts-config": "*",
+    "@ui-developer-system/eslint-config": "*",
     "tsup": "^6.2.3",
     "typescript": "^4.8.4"
   }

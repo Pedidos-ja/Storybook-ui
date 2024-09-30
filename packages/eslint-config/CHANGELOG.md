@@ -1,4 +1,4 @@
-# @ui/eslint-config
+# @ui-developer-system/eslint-config
 
 ## 1.0.1
 

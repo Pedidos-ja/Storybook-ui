@@ -1,4 +1,4 @@
-# @ui/ts-config
+# @ui-developer-system/ts-config
 
 ## 1.0.1
 
