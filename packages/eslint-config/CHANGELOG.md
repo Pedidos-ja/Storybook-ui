@@ -1,18 +1,11 @@
 # @ui-developer-system/eslint-config
-
-## 2.0.0
-
-### Major Changes
-
-- 95390c9: add config
-
-### Minor Changes
-
-- 6c9f9c4: add new test color
+ 
+## 1.0.2
 
 ### Patch Changes
 
-- 6c9f9c4: add new color
+- adjustment
+ 
 
 ## 1.0.1
 
