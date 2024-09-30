@@ -1,10 +1,11 @@
 # @ui-developer-system/eslint-config
-
+ 
 ## 1.0.2
 
 ### Patch Changes
 
 - adjustment
+ 
 
 ## 1.0.1
 
