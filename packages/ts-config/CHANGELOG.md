@@ -1,5 +1,11 @@
 # @ui-developer-system/ts-config
 
+## 1.0.5
+
+### Patch Changes
+
+- update components
+
 ## 1.0.4
 
 ### Patch Changes
