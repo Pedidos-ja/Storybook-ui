@@ -16,14 +16,26 @@ export interface TextProps extends ComponentProps<'span'> {
     | '7xl'
     | '8xl'
     | '9xl'
-  color?: 'red' | 'green' | 'blue' | 'gray' | 'yellow'
+  color?:
+    | 'red'
+    | 'green'
+    | 'blue'
+    | 'gray'
+    | 'yellow'
+    | 'green700'
+    | 'gray900'
+    | 'gray700'
   children: React.ReactNode
+  align?: 'left' | 'center' | 'right'
+  className?: string
 }
 
 export const Text = ({
   as: Tag = 'span',
   size = 'md',
-  color = 'red',
+  color = 'gray900',
+  align = 'left',
+  className = '',
   children,
   ...props
 }: TextProps) => {
@@ -49,10 +61,22 @@ export const Text = ({
     blue: 'text-blue-500',
     gray: 'text-gray-500',
     yellow: 'text-yellow-500',
+    green700: 'text-green-700',
+    gray900: 'text-gray-900',
+    gray700: 'text-gray-700',
   }[color]
 
+  const alignClass = {
+    left: 'text-left  w-full',
+    center: 'text-center  w-full',
+    right: 'text-right  w-full',
+  }[align]
+
   return (
-    <Tag className={`${sizeClass} ${colorClass}`} {...props}>
+    <Tag
+      className={`${className} ${sizeClass} ${colorClass} ${alignClass}`}
+      {...props}
+    >
       {children}
     </Tag>
   )
