@@ -6,6 +6,7 @@ export default {
   component: Text,
   args: {
     size: 'md',
+    color: 'red',
     children:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro reprehenderit est veniam? Rem recusandae sint perspiciatis debitis corrupti. Deserunt neque exercitationem illo voluptatum laudantium culpa suscipit accusantium blanditiis voluptas numquam.',
   },
@@ -28,6 +29,17 @@ export default {
       ],
       control: {
         type: 'inline-radio',
+      },
+    },
+    color: {
+      options: ['red', 'green', 'blue', 'gray', 'yellow'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    as: {
+      control: {
+        type: 'text',
       },
     },
   },

@@ -5,6 +5,9 @@
 ### Patch Changes
 
 - 4b5ae80: remove lib
+ 
+- add tailwind
+ 
 
 ## 1.0.2
 
