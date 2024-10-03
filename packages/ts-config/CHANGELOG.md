@@ -1,10 +1,17 @@
 # @ui-developer-system/ts-config
- 
+
+## 1.0.3
+
+### Patch Changes
+
+- 4b5ae80: remove lib
+- add tailwind
+
 ## 1.0.2
 
 ### Patch Changes
 
-- adjustment 
+- adjustment
 
 ## 1.0.1
 
