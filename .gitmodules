@@ -1,0 +1,3 @@
+[submodule "packages/template-electron"]
+	path = packages/template-electron
+	url = https://github.com/Pedidos-ja/template-electron.git

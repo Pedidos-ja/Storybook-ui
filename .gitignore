@@ -1,4 +1,6 @@
 node_modules
 dist
 .turbo
-packages/electron-app
+packages/template-electron
+
+.DS_Store
